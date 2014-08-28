@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://getbootstrap.com/examples/theme/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Theme Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/theme/theme.css" rel="stylesheet">
+    <style>
+    .btn-success {
+      background-image: -webkit-linear-gradient(top,#00FF00 0,#014401 100%);
+    background-image: -o-linear-gradient(top,#00FF00 0,#014401 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#00FF00),to(#014401));
+    background-image: linear-gradient(to bottom,#00FF00 0,#014401 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #014401;
+    }
+
+    .btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #00B600;
+  border-color: #398439;
+}
+
+.label-success {
+  background-color: #014401;
+}
+
+.navbar-inverse {
+  background-image: none !important;
+  background-color: rgba(0, 100, 139, 0.8);
+  border-color:  rgba(0, 100, 139, 0.8);
+
+}
+
+.navbar-inverse .navbar-brand {
+color: #FFF;
+font-weight: 100;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  background-image: none !important; */
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.25);
+  box-shadow: inset 0 3px 9px rgba(0,0,0,.25); 
+  background-color: rgb(153, 153, 153);
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #FFF;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+color: #000;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+color: #fff;
+background-color: rgb(153, 153, 153);
+}
+
+.dropdown-menu {
+
+  background-color: rgba(153, 153, 153, 0.9);
+}
+
+.dropdown-header {
+/*  color: red;
+  font-size: 32px;*/
+}
+
+.navbar-inverse .navbar-toggle {
+border-color: #FFF;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+background-color: #000;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #FFF;
+}
+
+
+@media (max-width: 768px) {
+  .someLinkText{
+    display: none;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {  
+
+.someLinkText{
+    font-size: 32px;
+  }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+    </style>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./bootstrap_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style id="holderjs-style" type="text/css"></style></head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://getbootstrap.com/examples/theme/#">Bootstrap theme</a>
+        </div>
+        <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://getbootstrap.com/examples/theme/#">Second</a></li>
+            <li><a href="http://getbootstrap.com/examples/theme/#about">About</a></li>
+            <li><a href="http://getbootstrap.com/examples/theme/#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/theme/#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="http://getbootstrap.com/examples/theme/#">Action</a></li>
+                <li><a href="http://getbootstrap.com/examples/theme/#">Another action</a></li>
+                <li><a href="http://getbootstrap.com/examples/theme/#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="http://getbootstrap.com/examples/theme/#">Separated link</a></li>
+                <li><a href="http://getbootstrap.com/examples/theme/#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container theme-showcase" role="main">
+       <div class="row">
+
+       <div class="col-sm-9 col-xs-11 pull-right" style="background-color:green;">
+        This is a create something more unique.This is a template for a simple marketing or infotemplate for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to rmational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+        <img class='img-responsive' src="http://carillon-beach.com/images/plates/large/beach-1.jpg"/>
+        </div>
+        <div class='col-sm-3 col-xs-1 pull-left'>
+        <span class="glyphicon glyphicon-search"></span>
+        <span class="someLinkText">
+        Link Text
+        </span>
+        </div>
+        <div class='col-sm-3 col-xs-1 pull-left'>
+        <span class="glyphicon glyphicon-search"></span>
+         <span class="someLinkText">
+        Link Text
+        </span>
+        </div>
+        <div class='col-sm-3 col-xs-1 pull-left' >
+       <span class="glyphicon glyphicon-search"></span>
+        <span class="someLinkText">
+        Link Text
+        </span>
+        </div>
+
+
+        
+       
+      </div>
+
+      <br/> <br/>
+       <br/> <br/> <br/> <br/>
+
+      <div class="row">
+       <div class="col-sm-3 col-xs-6" style="background-color:green;">
+        This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+        </div>
+        <div class="col-sm-3 col-xs-6" style="background-color:red;">
+        Pull Right
+        </div>
+        <div class="col-sm-6 col-xs-6" style="background-color:green;">
+        New example
+        </div>
+        <div class="col-sm-3 col-xs-6" style="background-color:red;">
+        Spans 12
+        </div>
+       
+      </div>
+
+        <div class="row">
+       <div class="col-sm-3 col-xs-6 pull-left" style="background-color:green;">
+        Spans 12
+        </div>
+        
+       
+      </div>
+
+
+      <br/>
+      <br/>
+      <div class="row">
+        <div class="col-sm-3" style="background-color:blue;">
+        Spans 12
+        </div>
+        <div class="col-sm-3" style="background-color:red;">
+        Spans 12
+        </div>
+        <div class="col-sm-3" style="background-color:blue;">
+        Spans 12
+        </div>
+        <div class="col-sm-3" style="background-color:red;">
+        Spans 12
+        </div>
+      </div>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./bootstrap_files/jquery.min.js"></script>
+    <script src="./bootstrap_files/bootstrap.min.js"></script>
+    <script src="./bootstrap_files/docs.min.js"></script>
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1409175207711">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1409175207711" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="100%" height="100%" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit">                </object></div></body></html>
